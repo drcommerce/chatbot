@@ -4,9 +4,9 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
-    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
-    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+    "This is a chatbot that uses Facebook's opensource Llama LLM to generate answer questions about Mythic Legions Action Figures. "
+    "To use this app, Simply ask a question about Mythic Legions and wait for a response. "
+    "For example, you can ask: "Who are the four horsemen in mythic legions?" or "Tell me a story that takes place in the lands of Mythic Legions."
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
